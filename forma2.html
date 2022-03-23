@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Software Ordedr Form</h1>
+    <form action="">
+        <p><strong>License details</strong></p>
+        <table style="border-bottom: 2px solid black;">
+            <tr>
+                <td>Email adress</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>Website</td><br>
+                <td><input type="text" placeholder="htpps://www.example.com/" required></td>
+            </tr>
+            <tr>
+                <td>Number of lincenses</td>
+                <td><input type="text" placeholder="How many to buy(1-10)" required></td>
+            </tr>
+        </table>
+
+        <p><strong>Biling details</strong></p>
+        <table style="border-bottom: 2px solid black;">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="First Last" required></td>
+            </tr>
+            <tr>
+                <td>Adress</td><br>
+                <td><textarea name="" id="" cols="21" rows="2" placeholder="House number, street, city, state"
+                        required></textarea></td>
+            </tr>
+            <tr>
+                <td>Postal code</td>
+                <td><input type="text" placeholder="post code or zip code" required></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><select name="" id="" required>
+                        <option value="Australia">Australia</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Belgium">Belgium</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Phone <i>(optional)</i></td>
+                <td><input type="text" placeholder="Include country prefix, e.g."></td>
+            </tr>
+        </table>
+
+        <table style="border-bottom: 2px solid black;">
+            <p><strong>Payment details</strong></p>
+            <tr>
+                <td>Card number</td>
+                <td><input type="text" placeholder="As shown on the front of you" required></td>
+            </tr>
+            <tr>
+                <td>CVV code</td><br>
+                <td><input type="text" name="" id="" placeholder="3-digit number on back of your card" required></td>
+            </tr>
+            <tr>
+                <td>Expiry date</td>
+                <td><input type="text" placeholder="YYYY-MM" required></td>
+            </tr>
+        </table>
+        <input type="submit" value="Place your order">
+    </form>
+</body>
+
+</html>
